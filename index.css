@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    background-color: #E2E5EB;
+}
+header{
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.logo{
+    width: 38px;
+    height: auto;
+}
+.telaInicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+.telaInicial img{
+    width: 680px;
+    height: auto;
+}
+.titulo{
+    max-width: 800px;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.saibaMais{
+    border: none;
+    color: #ffffffb1;
+    border-radius: 28px;
+    padding: 15px 30px ;
+    background: linear-gradient(135deg, #4B0082, #8A2BE2);
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.378);
+}
+.detalhesOS{
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.tituloQuadrado{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.tituloQuadrado2{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.interface{
+    width: 350px;
+    height: auto;
+}
+.terra{
+    width: 220px;
+    height: auto;
+}
+.quadradoEsquerda, .quadradoDireita{
+    background-color: #F6F8FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    gap: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+}
+.containerQuadrados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.textoQuadrado{
+    max-width: 450px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #525252;
+}
+.textoQuadrado2{
+    max-width: 450px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #525252;
+}
+.quadradoHorizontal{
+    width: 60.3rem;
+    background-color: #F6F8FA;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    padding: 1.5rem;
+    margin-top: 20px;
+}
+.textoHorizontal{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.quadradoEsquerda3, .quadradoDireita3{
+    background-color: #F6F8FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 470px;
+    padding: 10px;
+    gap: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.depoimentos{
+    font-size: 1.1em;
+    color: #525252;
+    text-align: center;
+    max-width: 450px;
+}
+.aplicativosContainer{
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(rgba(115, 135, 226, 0.34), rgba(115, 135, 226, 0.34)), url('./img/background.png');
+    background-position: center left;
+    background-size: cover;
+    margin-top: 2rem;
+}
+.linhaAPP1, .linhaAPP2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.linhaAPP1{
+    margin-bottom: 20px;
+}
+.hoverFake img{
+    transition: .2s ease-in-out;
+}
+.hoverFake img:hover{
+    transform: translateY(-10px);
+}
+.textoaplicativos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tituloAPP{
+    text-align: center;
+    padding: 3rem;
+    font-size: 2em;
+}
+.textoAPP{
+    max-width: 800px;
+    text-align: center;
+}
