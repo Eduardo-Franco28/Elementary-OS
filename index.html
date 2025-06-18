@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>ElementaryOS8</title>
   </head>
   <body>
@@ -22,7 +27,7 @@
       </div>
 
       <div>
-        <button class="saibaMais">Saiba Mais!</button>
+          <a href="https://elementary.io/pt_BR/" target="_blank"><button class="saibaMais">Saiba Mais!</button></a>
       </div>
     </section>
     <section class="maisDetalhes">
@@ -53,7 +58,7 @@
           </div>
           <div>
             <p class="textoQuadrado">
-              O elementary OS é aberto, transparente e colaborativo. Feito por
+              O elementary OS é aberto, e colaborativo. Feito por
               pessoas que acreditam na tecnologia como ferramenta de liberdade.
               Aqui, tudo é seu: auditável, modificável e livre de corporações.
             </p>
@@ -73,7 +78,7 @@
               </p>
           </div>
           <div>
-            <img src="./img/carroappcenter.svg" alt="">
+            <img src="./img/carroappcenter.svg" alt="" class="carro">
           </div>
         </div>
       </div>
@@ -84,7 +89,7 @@
             <h3 class="tituloQuadrado">Depoimentos💙</h3>
             <br>
             <div>
-                <p class="depoimentos">"O elementary OS 8 trouxe uma experiência incrivelmente fluida e elegante. A interface minimalista e o desempenho otimizado fazem dele uma ótima escolha para quem busca produtividade sem complicações. Adorei os novos recursos do AppCenter!"</p> 
+                <p class="depoimentos">"O elementary OS 8 trouxe uma experiência incrivelmente fluida. A interface minimalista e o desempenho otimizado fazem dele uma ótima escolha para quem busca produtividade sem complicações. Adorei os recursos do AppCenter!"</p> 
                 <br><br>
                 <p class="depoimentos">"Migrei para o elementary OS 8 e não me arrependo! O sistema é rápido, estável e muito intuitivo. O design limpo e a integração perfeita entre hardware e software tornam minha experiência diária mais agradável e eficiente."</p>
             </div>
@@ -95,7 +100,7 @@
             <div>
                 <p class="depoimentos">"O elementary OS 8 superou minhas expectativas! A atenção aos detalhes no design e a facilidade de uso são impressionantes. É um sistema que combina beleza e funcionalidade, perfeito para quem valoriza simplicidade e desempenho."</p>
                 <br><br>
-                <p class="depoimentos">"Recomendo o elementary OS 8 para quem quer um sistema bonito e funcional. A nova atualização trouxe melhorias significativas. O AppCenter está mais completo, e a experiência geral é fantástica!"</p>
+                <p class="depoimentos">"Recomendo o elementary OS 8 para quem quer um sistema bonito e funcional. A nova atualização trouxe melhorias significativas. O AppCenter está mais completo, e a experiência geral é fantástica e muito agradável, além do Hud muito suave!"</p>
             </div>
         </div>
       </div>
@@ -130,8 +135,15 @@
       </div>
     </section>
     <section class="videoSessao">
-      <video src=""></video>
+        <iframe width="780" height="515" 
+          src="https://www.youtube.com/embed/iXS5kdXquvQ" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
     </section>
     <footer></footer>
+    <script src="index.js"></script>
   </body>
 </html>
